@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>app</title>
+    <link rel="stylesheet"  type="text/css" href="{{url_for('.static', filename='style.css')}}">
+</head>
+<body>
+    <h1>Iris flower calssifier</h1>
+    <p>* Hi User please Enter Sapel Length,Sapel Width, Petal Length and Petal width In the below cells.<br>
+       * After Entering Values click on Submit Button to Get Result. </p>
+    <form action="predict" method="POST">
+        <div class="hiii">
+       <label>Sapel Length : </label> <input type="text" name="spl" placeholder="sapel Length"><br><br>
+       <label>Sapel Width : </label> <input type="text" name="spw" placeholder="sapel Width"><br><br>
+       <label>Petal Length : </label> <input type="text" name="ptl" placeholder="petal Length"><br><br>
+       <label>Petal Width : </label> <input type="text" name="ptw" placeholder="petal Width"><br><br>
+        <div>
+            <button class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+
+    </form>
+    <hr/>
+    <div class="fotter">
+        <footer>
+            <p>&copy; 2020 | Desined & Developed by <span style="color: brown; font-style:bold">M. Naresh</span></p>
+        </footer>
+    </div>
+    
+</body>
+</html>

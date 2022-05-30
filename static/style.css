@@ -1,0 +1,53 @@
+h1 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 2.5em;
+    color: FireBrick;
+    background-color: blanchedalmond;
+    padding: 30px;
+    margin:0px 0px;
+    }
+   
+  p {
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+    color: DarkSlateGray;
+    background-color:rgb(189, 186, 201);
+    padding:10px 20px;
+    }
+  .hiii{
+      text-align: center;
+      background-color:rgb(240, 247, 142);
+      padding: 80px;
+      
+    }
+  button{
+    border-radius: 8px;
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+    text-align: center;
+    color:black;
+    padding: 10px;
+    width: 300;
+    background-color: rgb(235, 106, 51);
+    margin: 40px;
+  }
+  .fotter{
+ text-align: center;
+
+  }
+  .b{
+    font-size: 2.5rem;
+    border-width: 10px;
+    text-align: center;
+    background-color: aqua;
+    border: 10px;
+    margin: 250px 0px 
+    }
+  .text-warning{
+    border-radius: 8px;
+    border: 2px;
+    border-color: red;
+    border-style:solid;
+    margin:0px 500px
+
+  }
